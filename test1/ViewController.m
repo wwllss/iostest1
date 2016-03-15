@@ -23,14 +23,18 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *tag = @"testCell";
     TestTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tag];
-    if (cell) {
+    if (cell == nil) {
         cell = [[TestTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tag];
     }
+//    
+//    LSInteger *integer = [LSInteger alloc];
+//    integer.position = indexPath.row;
+    
     [cell updateWithEntryObject:[_arr objectAtIndex:indexPath.row]];
     return cell;
 }
 
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return _arr.count;
 }
 

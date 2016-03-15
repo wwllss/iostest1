@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2717134C1C97D8B0002D94AB /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717134B1C97D8B0002D94AB /* TestTableViewCell.m */; };
+		2717134F1C97E80A002D94AB /* LSInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717134E1C97E80A002D94AB /* LSInteger.m */; };
 		27822AE01C92650500510209 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27822ADF1C92650500510209 /* main.m */; };
 		27822AE31C92650500510209 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27822AE21C92650500510209 /* AppDelegate.m */; };
 		27822AE61C92650500510209 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27822AE51C92650500510209 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2717134A1C97D8B0002D94AB /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		2717134B1C97D8B0002D94AB /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		2717134D1C97E80A002D94AB /* LSInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSInteger.h; sourceTree = "<group>"; };
+		2717134E1C97E80A002D94AB /* LSInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSInteger.m; sourceTree = "<group>"; };
 		27822ADB1C92650500510209 /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27822ADF1C92650500510209 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27822AE11C92650500510209 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271713411C97D6D0002D94AB /* test1 */ = {
+			isa = PBXGroup;
+			children = (
+				2717134A1C97D8B0002D94AB /* TestTableViewCell.h */,
+				2717134B1C97D8B0002D94AB /* TestTableViewCell.m */,
+				2717134D1C97E80A002D94AB /* LSInteger.h */,
+				2717134E1C97E80A002D94AB /* LSInteger.m */,
+			);
+			name = test1;
+			sourceTree = "<group>";
+		};
 		27822AD21C92650500510209 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 		27822ADD1C92650500510209 /* test1 */ = {
 			isa = PBXGroup;
 			children = (
+				271713411C97D6D0002D94AB /* test1 */,
 				27822AE11C92650500510209 /* AppDelegate.h */,
 				27822AE21C92650500510209 /* AppDelegate.m */,
 				27822AE41C92650500510209 /* ViewController.h */,
@@ -272,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27822AE61C92650500510209 /* ViewController.m in Sources */,
+				2717134C1C97D8B0002D94AB /* TestTableViewCell.m in Sources */,
+				2717134F1C97E80A002D94AB /* LSInteger.m in Sources */,
 				27822AE31C92650500510209 /* AppDelegate.m in Sources */,
 				27822AE01C92650500510209 /* main.m in Sources */,
 			);
@@ -503,6 +523,7 @@
 				27822B0A1C92650500510209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27822B0B1C92650500510209 /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				27822B0D1C92650500510209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27822B0E1C92650500510209 /* Build configuration list for PBXNativeTarget "test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +541,7 @@
 				27822B101C92650500510209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
